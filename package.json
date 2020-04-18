@@ -1,0 +1,19 @@
+{
+  "name": "travis_ci",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "jshint hello.js hello.test.js",
+    "test": "npm run lint && mocha hello.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "jshint": "^2.10.2",
+    "mocha": "^6.2.2",
+    "koa": "^2.3.0"
+  }
+}
