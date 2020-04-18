@@ -2,7 +2,6 @@
 const Koa = require('koa');
 const app = new Koa();
 app.use((ctx, next) => {
-    ctx.response.body = 'hello docker'
     ctx.response.body = 'hello docker hello git hello ci'
 })
 // 这里是学习测试功能的代码
