@@ -12,6 +12,6 @@ before_install:
 script:
 
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-  - docker build -t d94888/travis-ci:1.0.0
-  - docker push d94888/travis-ci:1.0.0
+  - docker build -t d94888/travis-ci:latest
+  - docker push d94888/travis-ci:latest
 
